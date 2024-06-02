@@ -1,0 +1,24 @@
+button{
+    display:inline-block ;
+}
+img{
+    size:200px;
+}
+.header{
+    padding: 15px;
+}
+.col-1{
+    width: 50%;
+}
+.col-2{
+    width: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+@media only screen and (max-width:768px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
